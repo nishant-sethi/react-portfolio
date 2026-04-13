@@ -33,7 +33,7 @@ jobs:
           aws-region: ${{ vars.AWS_REGION }}
 
       - name: Sync Build directory to S3
-        run: aws s3 sync build/ s3://nsethi.me --delete
+        run: aws s3 sync build/ s3://nsethi.me --delete --exclude "resume.pdf"
 
       - name: Invalidate CloudFront Cache
         run: aws cloudfront create-invalidation --distribution-id ${{ vars.CLOUDFRONT_DIST_ID }} --paths "/*"
