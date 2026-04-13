@@ -1,10 +1,10 @@
 {
   "main": {
     "name": "Nishant Sethi",
-    "occupation": "ReactJS Developer && Power Programmer @Infosys",
-    "description": "Full Stack React Developer by Day && Student by Night. #Boss ",
+    "occupation": "ReactJS Developer @JP Morgan",
+    "description": "Full Stack React Developer by Day && Student by Night.",
     "image": "nishant_sethi.jpeg",
-    "bio": "My Name is Nishant, I'm a Full Stack ReactJS Developer with Infosys ",
+    "bio": "My Name is Nishant, I'm a working as Software Engineer III with JP Morgan ",
     "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
     "email": "nsethi610@gmail.com",
     "phone": "+44 7721808863",
@@ -13,7 +13,7 @@
       "state": "UK"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload": "https://drive.google.com/file/d/1fPtjMgE4IOjLGbMB60XqqMhXB-u1LETS/view?usp=sharing",
+    "resumedownload": "https://drive.google.com/file/d/1uS2woYRC743QCaXlnYVT2LHvMdODvPNK/view?usp=sharing",
     "social": [
       {
         "name": "facebook",
@@ -49,9 +49,15 @@
     ],
     "work": [
       {
+        "company": "JP Morgan",
+        "title": "Software Engineer III && MERN Stack Developer",
+        "years": "Oct 2021 - Present",
+        "description": "Developing Apps in ReactJS, Node and Express."
+      },
+      {
         "company": "Infosys",
         "title": "Specialist Programmer && MERN Stack Developer",
-        "years": "Aug 2017 - Present",
+        "years": "Aug 2017 - Oct 2021",
         "description": "Developing Apps in ReactJS, Node and Express."
       }
     ],
