@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const Footer = ({ data }) => {
   let networks;
@@ -15,23 +15,23 @@ const Footer = ({ data }) => {
 
   return (
     <footer>
-      <div className="row">
-        <div className="twelve columns">
-          <ul className="social-links">{networks}</ul>
+      <div className='row'>
+        <div className='twelve columns'>
+          <ul className='social-links'>{networks}</ul>
 
-          <ul className="copyright">
+          <ul className='copyright'>
             <li>
-              &copy; Copyright 2020{" "}
-              <a href="https://www.linkedin.com/in/nishant-sethi-0188b1a2/">
+              &copy; Copyright 2026{' '}
+              <a href='https://www.linkedin.com/in/nishant-sethi-0188b1a2/'>
                 <strong>Nishant Sethi</strong>
               </a>
               . All rights reserved.
             </li>
           </ul>
         </div>
-        <div id="go-top">
-          <a className="smoothscroll" title="Back to Top" href="#home">
-            <i className="icon-up-open"></i>
+        <div id='go-top'>
+          <a className='smoothscroll' title='Back to Top' href='#home'>
+            <i className='icon-up-open'></i>
           </a>
         </div>
       </div>

@@ -45,7 +45,6 @@ const Resume = ({ data }) => {
             <span>Work</span>
           </h1>
         </div>
-
         <div className='nine columns main-col'>{work}</div>
       </div>
       <div className='row skill'>
