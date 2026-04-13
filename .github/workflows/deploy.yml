@@ -23,9 +23,7 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: Build Production Bundle
-        run: yarn build
-        env:
-          CI: "false" # Prevents CRA from failing builds on minor lint warnings
+        run: unset CI && CI=false yarn build
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
