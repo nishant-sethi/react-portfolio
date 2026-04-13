@@ -4,7 +4,7 @@
     "occupation": "ReactJS Developer @JP Morgan",
     "description": "Full Stack React Developer by Day && Student by Night.",
     "image": "nishant_sethi.jpeg",
-    "bio": "My Name is Nishant, I'm a working as Software Engineer III with JP Morgan ",
+    "bio": "My name is Nishant. I am working as a Software Engineer III at JP Morgan.",
     "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
     "email": "nsethi610@gmail.com",
     "phone": "+44 7721808863",
@@ -12,7 +12,7 @@
       "city": "London",
       "state": "UK"
     },
-    "website": "http://www.timbakerdev.com",
+    "website": "https://nsethi.me",
     "resumedownload": "https://drive.google.com/file/d/1uS2woYRC743QCaXlnYVT2LHvMdODvPNK/view?usp=sharing",
     "social": [
       {
@@ -44,19 +44,19 @@
         "school": "Jaypee University of Information Technology",
         "degree": "Bachelors in Advanced Computer Science",
         "graduated": "August 2017",
-        "description": "Passed with 7.4 CGPA (who cares about marks though)"
+        "description": "Graduated with 7.4 CGPA."
       }
     ],
     "work": [
       {
         "company": "JP Morgan",
-        "title": "Software Engineer III && MERN Stack Developer",
+        "title": "Software Engineer III | MERN Stack Developer",
         "years": "Oct 2021 - Present",
         "description": "Developing Apps in ReactJS, Node and Express."
       },
       {
         "company": "Infosys",
-        "title": "Specialist Programmer && MERN Stack Developer",
+        "title": "Specialist Programmer | MERN Stack Developer",
         "years": "Aug 2017 - Oct 2021",
         "description": "Developing Apps in ReactJS, Node and Express."
       }
@@ -102,19 +102,19 @@
       },
       {
         "title": "Amazon Clone With Firebase",
-        "category": "Amazon Clone with Firebase (ReactJS, Redux and Firebase)",
+        "category": "Amazon Clone with Firebase (ReactJS, Redux, and Firebase)",
         "image": "amazon-clone.png",
         "url": "https://clone-af859.web.app/"
       },
       {
         "title": "Instagram Clone With Firebase",
-        "category": "Instagram Clone with Firebase (MongoDB, ExpressJS, ReactJS, NodeJS)",
+        "category": "Instagram Clone (MERN Stack + Firebase Auth)",
         "image": "Instagram-clone.png",
         "url": "https://instagram-clone-a4c86.web.app/"
       },
       {
         "title": "Spotify Clone With Firebase",
-        "category": "Spotify Clone with Firebase (MongoDB, ExpressJS, ReactJS, NodeJS)",
+        "category": "Spotify Clone (MERN Stack + Firebase Auth)",
         "image": "spotify-mern.jpeg",
         "url": "https://my-spotify-app-clone.netlify.app/"
       }
