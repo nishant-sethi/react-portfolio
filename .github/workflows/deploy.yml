@@ -16,7 +16,7 @@ jobs:
       - name: Setup Node.js Environment
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 18
           cache: 'yarn'
 
       - name: Install Dependencies
@@ -25,7 +25,7 @@ jobs:
       - name: Build Production Bundle
         run: yarn build
         env:
-          CI: false # Prevents CRA from failing builds on minor lint warnings
+          CI: "false" # Prevents CRA from failing builds on minor lint warnings
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
