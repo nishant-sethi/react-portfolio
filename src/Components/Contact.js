@@ -102,20 +102,6 @@ const Contact = ({ data }) => {
             <br />
           </div>
         </div>
-
-        <aside className="two columns footer-widgets">
-          <div className="widget widget_contact">
-            <h4>Address and Phone</h4>
-            <p className="address">
-              {data?.name}
-              {data?.address.state}
-              <br />
-              <span>{data?.phone}</span>
-            </p>
-          </div>
-
-          <div className="widget widget_tweets"></div>
-        </aside>
       </div>
     </section>
   );
