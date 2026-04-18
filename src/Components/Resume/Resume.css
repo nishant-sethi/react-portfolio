@@ -1,0 +1,105 @@
+.resume-section {
+  background-color: var(--color-bg-primary);
+}
+
+.resume-block {
+  margin-bottom: var(--space-8);
+  padding-bottom: var(--space-8);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.resume-block:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.resume-grid {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: var(--space-6);
+}
+
+@media (max-width: 768px) {
+  .resume-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.resume-header h1 {
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-text-secondary);
+  position: relative;
+  display: inline-block;
+}
+
+.resume-header h1::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 40px;
+  height: 3px;
+  background: var(--color-accent);
+  border-radius: 2px;
+}
+
+.resume-item {
+  margin-bottom: var(--space-6);
+}
+
+.resume-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: var(--space-1);
+}
+
+.resume-info {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-3);
+}
+
+.resume-info span {
+  color: var(--color-accent);
+  margin: 0 var(--space-2);
+}
+
+.resume-date {
+  font-style: italic;
+  opacity: 0.8;
+}
+
+.resume-description {
+  color: var(--color-text-tertiary);
+  line-height: 1.7;
+}
+
+/* Modern Skills Display (Replacing Progress Bars) */
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-top: var(--space-4);
+  list-style: none;
+}
+
+.skill-pill {
+  background: var(--color-bg-glass);
+  border: 1px solid var(--color-border);
+  padding: var(--space-2) var(--space-4);
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--color-text-primary);
+  transition: all var(--transition-fast);
+}
+
+.skill-pill:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(96, 165, 250, 0.15);
+}

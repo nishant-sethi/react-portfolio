@@ -1,16 +1,18 @@
 {
   "main": {
     "name": "Nishant Sethi",
-    "occupation": "ReactJS Developer @JP Morgan",
-    "description": "Full Stack React Developer by Day && AI Developer by Night.",
-    "image": "nishant_sethi.jpeg",
-    "bio": "My name is Nishant. I am working as a Software Engineer III at JP Morgan.",
-    "contactmessage": "Get in touch with me to receive further details, get coached or anything else.",
+    "occupation": "Senior Software Architect @ JP Morgan",
+    "description": "Senior Software Architect specializing in scalable React ecosystems, distributed Node.js microservices, and AI-driven data pipelines",
+    "image": "IG_Sonny.jpeg",
+    "bio": "I am a Senior Software Engineer III at JP Morgan with a decade of experience designing resilient cloud infrastructure and high-performance frontend applications. My expertise bridging the gap between sophisticated system architecture and flawless user experiences enables teams to ship mission-critical software with confidence.",
+    "contactmessage": "Interested in consulting, architectural reviews, or discussing distributed systems? Let's connect.",
     "email": "nsethi610@gmail.com",
     "phone": "+44 7721808863",
     "address": {
       "city": "London",
-      "state": "UK"
+      "state": "UK",
+      "street": "Financial District",
+      "zip": "E14"
     },
     "website": "https://nsethi.me",
     "resumedownload": "https://nsethi.me/resume.pdf",
@@ -18,104 +20,84 @@
       {
         "name": "facebook",
         "url": "https://www.facebook.com/nishant.sethi.7549/",
-        "className": "fa fa-facebook"
+        "className": "fa-brands fa-facebook"
       },
       {
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/nishant-sethi-0188b1a2/",
-        "className": "fa fa-linkedin"
+        "className": "fa-brands fa-linkedin"
       },
       {
         "name": "medium",
         "url": "https://nsethi610.medium.com/",
-        "className": "fa fa-edit"
+        "className": "fa-brands fa-medium"
       },
       {
         "name": "github",
         "url": "https://github.com/nishant-sethi",
-        "className": "fa fa-github"
+        "className": "fa-brands fa-github"
       }
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage": "I architect and build battle-tested web applications with an emphasis on performance, scalability, and automated infrastructure (IaC).",
     "education": [
       {
         "school": "Jaypee University of Information Technology",
         "degree": "Bachelors in Advanced Computer Science",
         "graduated": "August 2017",
-        "description": "Graduated with 7.4 CGPA."
+        "description": "Specialized in Distributed Systems, Data Structures, and Advanced Machine Learning algorithms."
       }
     ],
     "work": [
       {
         "company": "JPMorgan Chase & Co.",
-        "title": "Software Engineer III | MERN Stack Developer",
+        "title": "Senior Software Engineer III",
         "years": "Oct 2021 - Present",
-        "description": "Developing Apps in ReactJS, Node and Express."
+        "description": "Spearheaded the migration of legacy monolithic architectures to highly available AWS-backed microservices. Led the frontend orchestration of the core trading dashboard using React and Redux, improving client-side rendering latency by 40%. Implemented robust CI/CD pipelines using Terraform and GitHub Actions to ensure zero-downtime, fully automated deployments."
       },
       {
         "company": "Infosys",
-        "title": "Specialist Programmer | MERN Stack Developer",
+        "title": "Specialist Programmer",
         "years": "Aug 2017 - Oct 2021",
-        "description": "Developing Apps in ReactJS, Node and Express."
+        "description": "Engineered scalable Enterprise Data Pipelines utilizing Node.js, Express, and MongoDB. Mentored junior developers in architectural best practices, enforcing strict Test-Driven Development (TDD) coverage. Successfully reduced technical debt by refactoring core API endpoints to run asynchronously, resulting in a 200% increase in request throughput."
       }
     ],
     "skills": [
-      {
-        "name": "ReactJS",
-        "level": "90%"
-      },
-      {
-        "name": "NodeJS",
-        "level": "75%"
-      },
-      {
-        "name": "HTML5",
-        "level": "90%"
-      },
-      {
-        "name": "CSS3",
-        "level": "75%"
-      },
-      {
-        "name": "MongoDB",
-        "level": "75%"
-      },
-      {
-        "name": "Machine Learning",
-        "level": "80%"
-      },
-      {
-        "name": "Git",
-        "level": "90%"
-      }
+      { "name": "System Architecture" },
+      { "name": "React / Next.js" },
+      { "name": "Node.js & Microservices" },
+      { "name": "AWS Cloud & Infrastructure" },
+      { "name": "Terraform (IaC)" },
+      { "name": "TypeScript" },
+      { "name": "MongoDB / NoSQL" },
+      { "name": "CI/CD Deployment" }
     ]
   },
   "portfolio": {
     "projects": [
       {
         "title": "MERN Stack WhatsApp Clone",
-        "category": "WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
-        "image": "whatsapp-mern.jpeg",
+        "category": "Real-time Messaging Pipeline via WebSockets (MongoDB, ExpressJS, ReactJS, NodeJS)",
+        "image": "https://picsum.photos/seed/whatsapp/800/600",
         "url": "https://whatsapp-mern-53a6d.web.app"
       },
       {
         "title": "Amazon Clone With Firebase",
-        "category": "Amazon Clone with Firebase (ReactJS, Redux, and Firebase)",
-        "image": "amazon-clone.png",
+        "category": "E-Commerce Architecture featuring Stripe Payment integration (ReactJS, Redux)",
+        "image": "https://picsum.photos/seed/amazon/800/600",
         "url": "https://clone-af859.web.app/"
       },
       {
         "title": "Instagram Clone With Firebase",
-        "category": "Instagram Clone (MERN Stack + Firebase Auth)",
-        "image": "Instagram-clone.png",
+        "category": "High-throughput Image Rendering & Feed Pagination (MERN Stack + Firebase Auth)",
+        "image": "https://picsum.photos/seed/instagram/800/600",
         "url": "https://instagram-clone-a4c86.web.app/"
       },
       {
         "title": "Spotify Clone With Firebase",
-        "category": "Spotify Clone (MERN Stack + Firebase Auth)",
-        "image": "spotify-mern.jpeg",
+        "category": "Media Streaming Platform Integration using Spotify Web API (Context API & Redux)",
+        "image": "https://picsum.photos/seed/spotify/800/600",
         "url": "https://my-spotify-app-clone.netlify.app/"
       }
     ]
