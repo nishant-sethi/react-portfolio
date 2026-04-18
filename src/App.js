@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import "./App.css";
 import {
   Header,
   Footer,
@@ -8,13 +8,13 @@ import {
   Contact,
   Testimonials,
   Portfolio,
-} from './Components';
+} from "./Components";
 
 const App = () => {
   const [resumeData, setResumeData] = useState({});
 
   useEffect(() => {
-    fetch('/resumeData.json')
+    fetch("/resumeData.json")
       .then((res) => res.json())
       .then((data) => setResumeData(data))
       .catch((err) => {
@@ -24,7 +24,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className='App'>
+    <div className="App">
       <Header data={resumeData.main} />
       <About data={resumeData.main} />
       <Resume data={resumeData.resume} />

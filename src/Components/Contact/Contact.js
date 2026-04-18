@@ -11,7 +11,9 @@ const Contact = ({ data }) => {
 
   const handleClick = (e) => {
     e.preventDefault();
-    window.open(`mailto:${data.email}?subject=${subject}&body=From: ${name} (${email})%0D%0A%0D%0A${message}`);
+    window.open(
+      `mailto:${data.email}?subject=${subject}&body=From: ${name} (${email})%0D%0A%0D%0A${message}`,
+    );
   };
 
   return (
@@ -67,16 +69,21 @@ const Contact = ({ data }) => {
                 ></textarea>
               </div>
 
-              <button type="submit" className="submit-btn">Send Message</button>
+              <button type="submit" className="submit-btn">
+                Send Message
+              </button>
             </form>
           </div>
 
           <aside className="contact-info">
             <h4>Address</h4>
             <p className="address">
-              {data.name}<br />
-              {data.address.street}<br />
-              {data.address.city}, {data.address.state} {data.address.zip}<br />
+              {data.name}
+              <br />
+              {data.address.street}
+              <br />
+              {data.address.city}, {data.address.state} {data.address.zip}
+              <br />
               {data.phone}
             </p>
           </aside>

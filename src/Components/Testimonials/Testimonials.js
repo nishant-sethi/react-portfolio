@@ -18,9 +18,7 @@ const Testimonials = ({ data }) => {
         <div className="testimonials-header">
           <h1>Client & Peer Endorsements</h1>
         </div>
-        <div className="testimonials-grid">
-          {testimonials}
-        </div>
+        <div className="testimonials-grid">{testimonials}</div>
       </div>
     </section>
   );

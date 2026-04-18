@@ -1,5 +1,5 @@
-import React from 'react';
-import './Resume.css';
+import React from "react";
+import "./Resume.css";
 
 const Resume = ({ data }) => {
   if (!data) return null;
@@ -10,7 +10,8 @@ const Resume = ({ data }) => {
     <div key={job.company} className="resume-item">
       <h3>{job.company}</h3>
       <p className="resume-info">
-        {job.title}<span>&bull;</span> <em className="resume-date">{job.years}</em>
+        {job.title}
+        <span>&bull;</span> <em className="resume-date">{job.years}</em>
       </p>
       <p className="resume-description">{job.description}</p>
     </div>
@@ -36,15 +37,12 @@ const Resume = ({ data }) => {
   return (
     <section id="resume" className="section-padding resume-section">
       <div className="container">
-        
         {/* Work / Impact */}
         <div className="resume-block resume-grid">
           <div className="resume-header">
             <h1>Architecture & Impact</h1>
           </div>
-          <div className="resume-content">
-            {workExperience}
-          </div>
+          <div className="resume-content">{workExperience}</div>
         </div>
 
         {/* Education */}
@@ -52,9 +50,7 @@ const Resume = ({ data }) => {
           <div className="resume-header">
             <h1>Education</h1>
           </div>
-          <div className="resume-content">
-            {educationDetails}
-          </div>
+          <div className="resume-content">{educationDetails}</div>
         </div>
 
         {/* Skills */}
@@ -64,12 +60,9 @@ const Resume = ({ data }) => {
           </div>
           <div className="resume-content">
             <p className="resume-description">{skillmessage}</p>
-            <ul className="skills-grid">
-              {skillPills}
-            </ul>
+            <ul className="skills-grid">{skillPills}</ul>
           </div>
         </div>
-
       </div>
     </section>
   );

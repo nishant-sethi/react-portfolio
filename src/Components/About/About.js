@@ -11,7 +11,7 @@ const About = ({ data }) => {
     address: { street, city, state, zip },
     phone,
     email,
-    resumedownload
+    resumedownload,
   } = data;
 
   const profilepic = "/images/" + image;
@@ -22,20 +22,27 @@ const About = ({ data }) => {
         <div className="about-content">
           <h2>About Me</h2>
           <p className="about-bio">{bio}</p>
-          
+
           <div className="about-details-grid">
             <div className="contact-details">
               <h2>Contact Details</h2>
               <p className="address">
                 <span>{name}</span>
                 <span>{street}</span>
-                <span>{city} {state}, {zip}</span>
+                <span>
+                  {city} {state}, {zip}
+                </span>
                 <span>{phone}</span>
                 <span>{email}</span>
               </p>
             </div>
             <div className="download-btn-container">
-              <a href={resumedownload} className="download-btn" target="_blank" rel="noopener noreferrer">
+              <a
+                href={resumedownload}
+                className="download-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fas fa-download"></i> Download Resume
               </a>
             </div>

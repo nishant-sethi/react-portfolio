@@ -5,13 +5,18 @@ const Portfolio = ({ data }) => {
   if (!data) return null;
 
   const projects = data.projects.map((project) => {
-    const projectImage = project.image.startsWith("http") 
-      ? project.image 
+    const projectImage = project.image.startsWith("http")
+      ? project.image
       : "/images/portfolio/" + project.image;
-      
+
     return (
       <div key={project.title} className="portfolio-card">
-        <a href={project.url} title={project.title} target="_blank" rel="noopener noreferrer">
+        <a
+          href={project.url}
+          title={project.title}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <div className="portfolio-image-wrapper">
             <img alt={project.title} src={projectImage} loading="lazy" />
           </div>
@@ -29,12 +34,13 @@ const Portfolio = ({ data }) => {
       <div className="container">
         <div className="portfolio-header">
           <h1>Case Studies & Projects</h1>
-          <p>Highlighting complex systems, applications, and pipelines I've built.</p>
+          <p>
+            Highlighting complex systems, applications, and pipelines I've
+            built.
+          </p>
         </div>
 
-        <div className="portfolio-grid">
-          {projects}
-        </div>
+        <div className="portfolio-grid">{projects}</div>
       </div>
     </section>
   );
