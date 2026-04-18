@@ -46,7 +46,7 @@ flowchart TD
 
 ### Flow Breakdown
 
-1. **Route 53 (DNS):** A user types `nsethi.me` or `www.nsethi.me`. Route 53 uses an `Alias (A / AAAA)` record to smoothly route the user to the nearest CloudFront Edge location.
+1. **Route 53 (DNS):** A user types `<domain_name>` or `www.<domain_name>`. Route 53 uses an `Alias (A / AAAA)` record to smoothly route the user to the nearest CloudFront Edge location.
 2. **CloudFront (CDN):** CloudFront receives the request.
    - It references **AWS Certificate Manager (ACM)** to securely terminate the SSL connection (`HTTPS`).
    - Any raw `HTTP` requests are forcefully given a `301 Redirect` back to `HTTPS`.
